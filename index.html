@@ -24,6 +24,9 @@
     .container {
       display: flex;
       flex-direction: column;
+      background-color: aliceblue;
+      padding: 5px;
+      margin: 0%;
     }
 
     .young-serif-regular {
@@ -46,6 +49,7 @@
 
     body {
       font-family: "Outfit", sans-serif;
+      background-color: bisque;
     }
 
     .contents {
@@ -55,8 +59,14 @@
       flex-direction: column;
     }
 
+    .preparationTimeSection {
+      background-color: rgb(250, 228, 240);
+      margin: 5px;
+    }
+
     .preparationTimeHeading {
       color: hsl(332, 51%, 32%);
+      margin: 10px;
     }    
 
     .contents h2 {
@@ -130,7 +140,7 @@
       }
 
       .container h3 {
-        font-size: 2rem;
+        font-size: 4rem;
       }
 
       body {
@@ -160,7 +170,7 @@
     <img src="assets/images/image-omelette.jpeg" alt="A wrap with meat and salad on a plate" />
     <div class="contents">
 
-      <h1>Simple Omelette Recipe</h1>
+      <h1 style="margin-bottom: 0%;">Simple Omelette Recipe</h1>
       <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
         to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
       <div class="preparationTimeSection">
@@ -177,7 +187,7 @@
           </li>
         </ul>
       </div>
-      <h2>Ingredients</h2>
+      <h2 style="margin-bottom: 0%;">Ingredients</h2>
       <ul class="ingredientsList">
         <li>2-3 large eggs</li>
         <li>Salt, to taste</li>
@@ -188,7 +198,7 @@
 
       <hr>
 
-      <h2>Instructions</h2>
+      <h2 style="margin-bottom: 0%;">Instructions</h2>
       <ol class="instructionsList">
         <li><span class="instructionSummary">Beat the eggs:</span> In a bowl, beat the eggs with a pinch of salt and
           pepper until they are well mixed.
@@ -215,7 +225,8 @@
 
       <hr>
 
-      <h2>Nutrition</h2>
+      <div class="nutritionSummary">
+        <h2 style="margin-bottom: 0%;">Nutrition</h2>
       <p>The table below shows nutritional values per serving without the additional fillings.</p>
       <div class="nutritionTable">
         <div class="nutritionRow">
@@ -235,12 +246,13 @@
           <div class="nutritionValue">22g</div>
         </div>
       </div>
+      </div>
     </div>
   </div>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Gary Khong</a>.
+    Coded by <a href="#">Dhanush kumar</a>.
   </div>
 </body>
 
