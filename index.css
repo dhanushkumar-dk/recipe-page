@@ -1,0 +1,146 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 5px;
+    margin: 0%;
+  }
+
+  .young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .outfit-regular {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  h1,
+  h2 {
+    font-family: "Young Serif", serif;
+  }
+
+  body {
+    font-family: "Outfit", sans-serif;
+    background-color: bisque;
+  }
+
+  .contents {
+    margin: 0 auto;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .preparationTimeSection {
+    background-color: rgb(250, 228, 240);
+    margin: 5px;
+  }
+
+  .preparationTimeHeading {
+    color: hsl(332, 51%, 32%);
+    margin: 10px;
+  }    
+
+  .contents h2 {
+    color: hsl(14, 45%, 36%);
+    font-weight: 550;
+  }
+
+  .contents li {
+    padding-left: 1em
+  }
+
+  hr {
+    border: 0;
+    clear: both;
+    display: block;
+    width: 100%;
+    background-color: hsl(30, 18%, 87%);
+    height: 1px;
+  }
+
+  .instructionsList li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+  }
+
+  .instructionSummary {
+    font-weight: 600;      
+  }
+
+  .nutritionTable {
+    margin: 0 auto;
+    width: 100%
+  }
+
+  .nutritionRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20%;
+    margin-bottom: 1rem;
+    padding: 1rem 0 1rem 3rem;
+  }
+
+  .nutritionValue {
+    font-weight: 600;
+    color: hsl(14, 45%, 36%);
+  }
+
+  .nutritionRow:not(:last-of-type) {
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+  }
+
+  .preparationTimeList li::marker {
+    color: hsl(332, 51%, 32%);
+  }
+
+  .ingredientsList li::marker {
+    color: hsl(14, 45%, 36%);
+  }
+
+  .container li+li {
+      margin-top: 1rem;
+    }
+
+  @media (min-width: 1278px) {
+    .container h1 {
+      font-size: 4rem;
+    }
+
+    .container h2 {
+      font-size: 3rem;
+    }
+
+    .container h3 {
+      font-size: 4rem;
+    }
+
+    body {
+      font-size: 1.5rem;
+    }
+
+    .container img {
+      margin: 4rem auto 0 auto;
+      max-width: 90%;
+      border-radius: 2rem;
+    }
+
+    .container {
+      max-width: 1500px;
+      margin: 0 auto;
+    }
+  }
